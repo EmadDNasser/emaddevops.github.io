@@ -1,37 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emad DevOps - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Emad DevOps - Portfolio</title>
+<style>
+
+  body {
+    margin: 0;
+    line-height: 1.6;
+}
+
+header {  
+    
+    background: #333;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+}
+
+.col-1 {
+  width: 40%;
+  float: left;
+  padding: 2px;
+}
+
+.col-3 {
+  float: left;
+  padding: 2px;
+  width: 40%;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    position:fixed;
+    margin-bottom: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.card {
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 350px;
+  margin-left: 100px;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+}
+
+
+</style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-    </header>
-    <section id="about">
-        <div class="project">
-        <h2>About Me</h2>
-        <p>Software Engineer | C# Software Developer
-Experienced software engineer with over 12 years of hands-on experience in C#, ASP.NET, and full-stack web development. Proven ability to design, implement, and optimize software solutions, focusing on performance and scalability. Expertise in developing and testing software with strong analytical and problem-solving skills.</p>    
-        </div>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>You may please check my Github/h3> 
-        </div>
-    </section>
-    <section id="contact">
-        <div class="project">
-             <h2>Contact</h2>
-        <p>You can reach me at: <a href="mailto:emad.naser1@gmail.com">emad.naser1@gmail.com</a></p>
-        </div>
-       
-    </section>
-    <footer>
-        <p>&copy; 2024 Emad DevOps. All rights reserved.</p>
-    </footer>
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+</header>
+
+<div class="row">
+  <div class="col-1">
+    <div class="card">
+      <img src="Emad.jpg" alt="Emad Darab Nasser" style="width:100%">
+      <h2>Emad Darab Nasser</h2>
+      <p class="title">Software Engineer</p>   
+      <p class="title">C# Software Developer</p>    
+      <div style="margin: 15px 0;">
+        <a href="https://www.linkedin.com/in/emad-nasser-/"><i class="fa fa-linkedin"></i></a> 
+        <a href="https://github.com/EmadDNasser"><i class="fa fa-github"></i></i></a> 
+      </div>
+      <p><button>Contact</button></p>
+    </div>
+  </div>
+    <div class="col-3">
+      <h1>The City</h1>
+      <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+      <p>Resize the browser window to see how the content respond to the resizing.</p>
+  
+    </div>
+
+  
+</div>
+</div>
+<footer>
+  <p>&copy; 2024 Emad DevOps. All rights reserved.</p>
+</footer>
 </body>
 </html>
